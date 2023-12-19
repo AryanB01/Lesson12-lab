@@ -1,0 +1,10 @@
+@charset "UTF-8";
+svg:hover {
+    cursor: pointer;
+}
+#rectBar {
+    transition: width 1.2s;
+}
+#rectBar:active {
+    width: 90%;
+}
